@@ -1,9 +1,7 @@
 import os
 from supabase import create_client, Client
-
-SUPABASE_URL="https://kcavhjwafgtoqkqbbqrd.supabase.co"
-SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtjYXZoandhZmd0b3FrcWJicXJkIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODQ5NTQxMzIsImV4cCI6MjAwMDUzMDEzMn0.8PKGvntMY7kw5-wmvG2FBOCxf-OrA2yV5fnudeA6SVQ"
-
+SUPABASE_URL=''
+SUPABASE_KEY=''
 class SupabaseInterface:
     def __init__(self, table, url=None, key=None) -> None:
 
