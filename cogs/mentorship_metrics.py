@@ -260,7 +260,7 @@ def getPR(PRurl):
 
     headers = {
             'Accept': 'application/vnd.github+json',
-            # 'Authorization': f'Bearer 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'
+          
         }
     try:
         response = requests.get(url, headers=headers)
